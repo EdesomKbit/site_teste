@@ -107,6 +107,29 @@ iframe{
     height: 60vh;
 }
 
+/* Bairros */
+#bairros h2 {
+    display: flex;
+    color: #0052cc;
+    justify-content: center;
+    text-align: justify;
+    font-size: 30px;
+
+}
+
+#bairros h3{
+    display: flex;
+    color: #1a73e8;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#bairros p {
+    display: flex;
+        justify-content: center;
+        text-align: justify;
+        text-decoration: underline;
+} 
 
 
 
