@@ -34,3 +34,9 @@ Enviar para o Github com o commit "Site Limeira - Página pontos-turisticos.html
 9 - Prefeitos: Tabela ou lista com os nomes dos últimos prefeitos, a data de início do mandato e a data final
 
 Enviar para o Github e testar o site publicado
+
+
+
+git add .
+git commit -m "Aula 22/11/2024 - Conteúdo da aula"
+git push
