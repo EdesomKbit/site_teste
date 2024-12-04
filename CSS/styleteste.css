@@ -137,7 +137,7 @@ iframe{
     text-align: justify;
     justify-content: center;
     color: #0052cc;
-    font-size: 30px;
+    font-size: 50px;
     
 }
 #pontosturisticos h5{
@@ -152,7 +152,7 @@ iframe{
     display: flex;
     text-align: justify;
     justify-content: center;
-    font-size: 25px;
+    font-size: 35px;
     color: #48b362;
 }
 #pontosturisticos p{
@@ -185,24 +185,201 @@ iframe{
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-/* #noticias .noticia {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 20px;
+.museu{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
+}
+.rotaciclista{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
+}
+.mirante{
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
 }
 
-#noticias .noticia a {
+
+/* População TESTE */
+ #populacao h2{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
     color: #0052cc;
-    text-decoration: none;
-} */
+    font-size: 50px;
+}
+
+
+/* População 2 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Centraliza os textos da página */
+}
+
+header {
+    background-color: #0052cc;
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.info-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: center; /* Centraliza o texto dentro das caixas */
+    margin: 0 auto 2rem auto; /* Centraliza a caixa e adiciona margem inferior */
+    max-width: 600px; /* Define uma largura máxima para a caixa */
+}
+
+.info-box h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.info-box p {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block; /* Centraliza a lista */
+    text-align: left; /* Alinha os itens da lista à esquerda */
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li strong {
+    color: #333;
+}
+
+
+/* Localização */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.map-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: inline-block;
+    width: 80%;
+}
+
+.map-section h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Esportes */
+
+#corridaautodromo{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    color: #0052cc;
+    font-size: 30px;
+    h2{
+        font-size: 30px;
+    }
+}
+
+.demaio{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000 */    
+    border-radius: 8px;
+    img{
+        width: 90%;
+    } 
+}
+
+
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+}
+
+
+
+.content {
+    margin-top: 20px;
+}
+
+.sport-section {
+    margin-bottom: 40px;
+}
+
+.sport-section h2 {
+    color: #333;
+}
+
+.sport-section p {
+    color: #555;
+}
+
+.video {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Formatação da HOme*/
