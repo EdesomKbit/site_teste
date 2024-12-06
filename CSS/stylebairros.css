@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #004080;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -43,21 +43,31 @@ nav ul li a {
 }
 
 #banner {
-    background: #f4f4f4;
+    background: #004080;
     padding: 20px 0;
     text-align: center;
 }
 
+h2{
+    color: #ffffff;
+    font-size: 30px;
+}
+
 h3 {
     margin-top: 20px;
+    color: #0052cc;
+    text-align: center;
+    font-size: 30px;
 }
 
 p {
     margin: 5px 0;
+    text-align: center;
+    text-decoration: underline;
 }
 
 footer {
-    background: #4CAF50;
+    background: #0052cc;
     color: white;
     text-align: center;
     padding: 10px 0;

@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #004080;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -43,11 +43,21 @@ nav ul li a {
 }
 
 #banner {
-    background: #f4f4f4;
+    background: #004080;
     padding: 20px 0;
     text-align: center;
 }
 
+h2{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 30px;
+}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -55,17 +65,26 @@ table {
 }
 
 th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+tr{
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color:#0052cc;
+    font-size: 20px;
+    color: #ffffff;
+    
 }
 
 footer {
-    background: #4CAF50;
+    background: #0052cc;
     color: white;
     text-align: center;
     padding: 10px 0;

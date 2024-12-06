@@ -1,82 +1,141 @@
+/* Estilos Gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 15px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
+h1, h2 {
+    text-align: center;
+    color: #0052cc;
+}
+h3{
+    color: #fff;
+    font-size: 30px;
+}
+p{
     text-align: center;
 }
 
-#logo {
-    max-width: 100px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
+/* Cabeçalho */
+header {
+    background:#004080;
     color: white;
-    text-decoration: none;
+    padding: 1px ;
+    text-align: center;
 }
 
+header #logo {
+    max-width: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+/* Imagem de Destaque */
 .imagem_destaque img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 #banner {
-    background: #f4f4f4;
+    background: #004080;
     padding: 20px 0;
     text-align: center;
 }
 
-.video {
+/* Seções */
+section {
     margin: 20px 0;
+}
+
+.video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+section img {
+    max-width: 100%;
+    /* height: auto; */
+    /* display: block; */
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-h3 {
-    margin-top: 20px;
-}
-
-p {
-    margin: 5px 0;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
+/* Rodapé */
 footer {
-    background: #4CAF50;
+    background: #003366;
     color: white;
     text-align: center;
     padding: 10px 0;
+    margin-top: 20px;
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
-    nav ul li {
-        display: block;
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
         margin: 5px 0;
+    }
+
+    .content {
+        text-align: justify;
+    }
+
+    section img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    p, ul li {
+        font-size: 0.9em;
+        text-align: center;
+    
     }
 }
