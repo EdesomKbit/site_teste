@@ -77,6 +77,6 @@ footer {
 @media (max-width: 768px) {
     nav ul li {
         display: block;
-        margin: 5px 0;
+        margin: 20px 0;
     }
 }

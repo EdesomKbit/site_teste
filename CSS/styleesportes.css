@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    
 }
 
 .container {
@@ -32,7 +32,7 @@ header {
 }
 
 header #logo {
-    max-width: 80px;
+    max-width: 100px;
 }
 
 header nav ul {
@@ -40,7 +40,7 @@ header nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 header nav ul li {
@@ -102,7 +102,7 @@ ul li {
 
 /* Rodapé */
 footer {
-    background: #003366;
+    background: #0052cf;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -116,7 +116,8 @@ footer {
     }
 
     header nav ul li {
-        margin: 5px 0;
+        margin: 8px ;
+        font-size: 16px;
     }
 
     .content {
